@@ -20,7 +20,7 @@ const Form=()=>{
         <form className="flex flex-col items-start border rounded-lg w-1/2 md:w-1/3 mx-auto mt-10 p-5 gap-y-5 backdrop-blur-md drop-shadow-lg" onSubmit={handleSubmit}>
             <div className="w-full">
                 <label htmlFor="email">Enter Your Email</label>
-                <input type="email" id="email" name="email" className="px-1 w-full mt-1 border-2 rounded-lg py-1" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+                <input type="email" id="email" name="email" className="px-1 w-full mt-1 border-2 rounded-lg py-1" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="we@us.com"/>
             </div>
             <div className="flex flex-col w-full">
                 <label htmlFor="drop-down">Choose one</label>
