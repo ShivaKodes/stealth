@@ -2,11 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* CSS HEX */
+  --alice-blue: #DBECFFff;
+  --white: #FFFFFFff;
+  --gunmetal: #2C3236ff;
+  --pale-purple: #FFE5F9ff;
+  --champagne: #FFE9CAff;
+
+  /* SCSS Gradient */
+  /* $gradient-top: linear-gradient(0deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-right: linear-gradient(90deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-bottom: linear-gradient(180deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-left: linear-gradient(270deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-top-right: linear-gradient(45deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-bottom-right: linear-gradient(135deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-top-left: linear-gradient(225deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-bottom-left: linear-gradient(315deg, #DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff);
+$gradient-radial: radial-gradient(#DBECFFff, #FFFFFFff, #2C3236ff, #FFE5F9ff, #FFE9CAff); */
 }
+
+/* @import url("https://api.fontshare.com/v2/css?f[]=boska@500,400,200,700&f[]=satoshi@700,500,300,400&display=swap") */
 
 @media (prefers-color-scheme: dark) {
   :root {
