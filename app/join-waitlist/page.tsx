@@ -5,7 +5,7 @@ import Header from "./components/Header"
 const JoinWaitlist=()=>{
 
     return(
-        <div className="mx-auto bg-gradient-to-tr from-blue-500 to-pale-purple">
+        <div className="mx-auto">
             <Navbar />
             <Header />
             <Form />

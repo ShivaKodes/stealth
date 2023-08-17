@@ -4,7 +4,7 @@ export default function WaitlistLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className=" bg-gradient-to-tr from-blue-500 to-pale-purple">
+    <div className="">
         {children}
     </div>
   )

@@ -12,14 +12,14 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const Button=({children,className}:ButtonProps)=>{
 
-    const ref=useRef(null);
+    const ref=useRef<HTMLButtonElement>(null);
 
     const [position,setPosition]=useState({x:0,y:0})
 
 
     const handleMouseMove=(event:any)=>{
         const {clientX,clientY}=event;
-        const {width,height,left,top}=ref.current.getBoundingClientRect();
+        const {width,height,left,top}=ref.current!.getBoundingClientRect();
         const x=clientX-(left+width/2)
         const y=clientY-(top+height/2)
         setPosition({x,y})
