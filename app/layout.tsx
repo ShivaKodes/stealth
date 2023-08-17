@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen max-w-5xl mx-auto px-5 md:px-0`}>
+      <body className={`${inter.className} min-h-screen w-full mx-auto`}>
         <ToasterProvider />
         {children}
         </body>

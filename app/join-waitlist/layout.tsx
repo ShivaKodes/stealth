@@ -4,7 +4,7 @@ export default function WaitlistLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="">
+    <div className="w-full  min-h-screen bg-[url('/bg.jpg')] bg-no-repeat bg-cover">
         {children}
     </div>
   )
