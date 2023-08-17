@@ -1,7 +1,7 @@
 "use client"
 
 import Button from "@/app/components/Button"
-import { useState } from "react"
+import { FormEvent, useState } from "react"
 import { toast } from "react-hot-toast";
 
 const Form=()=>{
@@ -9,7 +9,7 @@ const Form=()=>{
     const [option,setOption]=useState("");
 
 
-    const handleSubmit=(event:Event)=>{
+    const handleSubmit=(event:FormEvent<HTMLFormElement>)=>{
         event.preventDefault()
             if(email==="" || option===""){
                 toast.error("Enter both values")
