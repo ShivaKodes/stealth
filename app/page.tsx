@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Testimonial from "./components/Testimonials";
 import Product from "./components/Product";
+import Contact from "./components/Contact";
+import About from "./components/About";
 
 
 export default function Home() {
@@ -10,8 +12,10 @@ export default function Home() {
     <main className="bg-white w-full h-full ">
       <Navbar />
       <Hero />
+      <About />
       <Product />
       <Testimonial />
+      <Contact />
       <Footer />
     </main>
   )
