@@ -9,7 +9,7 @@ import About from "./components/About";
 
 export default function Home() {
   return (
-    <main className="bg-white w-full h-full ">
+    <main className="bg-white w-full h-full text-gunmetal ">
       <Navbar />
       <Hero />
       <About />
